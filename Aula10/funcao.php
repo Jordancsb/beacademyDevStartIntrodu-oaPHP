@@ -8,24 +8,16 @@
 
     }
 
-    soma(10.25, 5.25); // 15
-
-    ////////////////
+    soma(10.25, 5.25); 
 
     function pagarConta(float $dinheiro, float $fatura): float{
-
-        // codigo;
 
         return $dinheiro - $fatura;
     }
 
     echo pagarConta(1200, 1000).PHP_EOL;
 
-    ////////////////
-
     function pagar(float $dinheiro, float $fatura): float{
-
-        // codigo;
 
         return $dinheiro - $fatura;
     }
